@@ -1,1 +1,7 @@
 # Materiales para el Master BIOINDI de ESAME
+
+Material para el curso de Introducción a la programación del Master en Bioinformática y Digital Health de ESAME & UAX (Universidad Alfonso X el Sabio).
+
+Para trabajar con el código contenido en este repositorio, necesitarás Python 3 y R. Los paquetes necesarios ya están definidos en el archivo de entorno de conda (.yml), incluido el formato Jupyter Notebook utilizado para el código. Anaconda es un gestor de paquetes popular que facilita la compartición de entornos para ciencia reproducible. Puedes instalar Python, R y Anaconda en cualquier sistema operativo: Windows (https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html), macOS (https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html) y Linux (https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html).
+
+Para instalar el entorno de conda, utiliza los comandos `conda create -n MBIOINDI pandas numpy jupyter r-base r-ggplot2 r-dplyr r-tidyr r-pheatmap r-irkernel`,  `conda activate MBIOINDI`, `python -m ipykernel install --user --name=MBIOINDI` y `jupyter notebook` desde la terminal (dentro de la carpeta del repositorio) en un sistema basado en UNIX o desde la terminal de Anaconda Prompt en Windows (disponible en las aplicaciones del sistema tras instalar Anaconda en Windows). Una vez dentro del Notebook, puedes cambiar el kernel al entorno correspondiente.
